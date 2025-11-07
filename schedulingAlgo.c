@@ -19,7 +19,6 @@ int main(){
         p[i].rem_bt = p[i].bt;
     }
     
-    //First Come First Serve Algo Logic 
     for (int i=0; i<n-1; i++){
         for (int j=i+1; j<n; j++){
             if (p[i].at > p[j].at){
