@@ -39,9 +39,6 @@ int main(){
     }
     
     
-    
-    
-    
     printf("\nPID\tAT\tBT\tCT\tTAT\tWT\n");
     for (int i=0; i<n; i++){
     printf("P%d\t%d\t%d\t%d\t%d\t%d\n", p[i].pid, p[i].at, p[i].bt, p[i].ct, p[i].tat, p[i].wt);
